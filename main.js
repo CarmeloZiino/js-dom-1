@@ -20,26 +20,25 @@
 // 1. Seleziono gli elementi all'interno del dom
 
 const lamp = document.getElementById("lamp");
-const button = document.getElementById("btn")
+const button = document.getElementById("btn");
 
 
 // 2. Creo una variabile che mi gestisca la lampadina accesa  
 
 const lampOn = `./img-5/yellow_lamp.png`
-const lampOff = `./img-5/white_lamp.png` 
+const lampOff = `./img-5/white_lamp.png`
 
 
  // .3 Creo una funzione per la quale al Click di Button la lampadina si accende
  button.addEventListener("click", function(){
-
- lamp.src = lampOn;
- });
+ lamp.src = lampOn;});
 
 
 
 
-/* Bonus. 
 
+
+/* Bonus. (commentare da riga 32 a 35, poi togliere dal commento tutto il codice sottostante)
 
 
 
@@ -59,7 +58,4 @@ button.addEventListener("click", function(){  //. Creo una funzione per la quale
   isLampOn = !isLampOn; // la negazione mi permette di tenere traccia dello stampo della lampadina. Se prima del click la lampadina è accesa  l'operatore ! la trasforma in false, quindi spegnendola al click. E viceversa. Senza l'operatore ! non si protrarrebbe l'azione e si fermerebbe al primo click.
 });
 
-
-
-
-
+*/
